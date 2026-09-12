@@ -1,5 +1,5 @@
 #![no_std]
 #[no_mangle]
-pub extern "C" fn KERNEL_MAIN -> ! {
+pub extern "C" fn KERNEL_MAIN() -> ! {
   loop{}
 }
